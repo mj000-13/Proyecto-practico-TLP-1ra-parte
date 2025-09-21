@@ -13,7 +13,7 @@ import json  # para imprimir el AST como vista previa en consola
 # =========================
 # 1) LEXER (tokenizador)
 # =========================
-class Tokenizer(object):
+class Tokenizer():
     """
     Convierte texto .brik en tokens.
     Tipos de token que sacamos:
@@ -67,7 +67,7 @@ class Tokenizer(object):
 # =========================
 # 2) PARSER
 # =========================
-class Parser(object):
+class Parser():
     """
     Construye un AST con reglas simples:
       - Asignaciones top-level:  clave = valor
@@ -327,5 +327,6 @@ if __name__ == '__main__':
     except Exception as e:
         print("Error al guardar:", e)
         sys.exit(2)
+
 
 
