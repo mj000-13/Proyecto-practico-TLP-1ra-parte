@@ -1,8 +1,8 @@
 
 # Analizador mínimo para archivos .brik:
 # - Lexer: separa el texto en tokens (palabras, números, símbolos)
-# - Parser: arma un diccionario (AST) con clave = valor, objetos { } y listas [ ]
-# - Validación mínima: chequeos básicos para no aceptar configuraciones absurdas
+# - Parser: arma un (AST) con clave = valor, objetos { } y listas [ ]
+# - Validación mínima: chequeos básicos para no aceptar config absurda
 # - Guardado: escribe un archivo de texto "arbol_snake.ast"
 
 import re
@@ -327,3 +327,4 @@ if __name__ == '__main__':
     except Exception as e:
         print("Error al guardar:", e)
         sys.exit(2)
+
