@@ -1,5 +1,5 @@
 
-# Analizador mínimo para archivos .brik:
+# Analizador para archivos .brik:
 # - Lexer: separa el texto en tokens (palabras, números, símbolos)
 # - Parser: arma un (AST) con clave = valor, objetos { } y listas [ ]
 # - Validación mínima: chequeos básicos para no aceptar config absurda
@@ -327,4 +327,5 @@ if __name__ == '__main__':
     except Exception as e:
         print("Error al guardar:", e)
         sys.exit(2)
+
 
