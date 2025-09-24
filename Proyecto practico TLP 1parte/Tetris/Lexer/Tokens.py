@@ -64,6 +64,7 @@ class TokenKind(Enum): # Enumerates the types of tokens, beginning with IOF = 0,
     WHILE = auto()
     FOR = auto()
     IN = auto()
+    RANGE = auto()
     EXPORT = auto()
     TYPEOF = auto()
     RETURN = auto()
@@ -83,6 +84,7 @@ reserved_lu ={
         "while":TokenKind.WHILE,
         "for":TokenKind.FOR,
         "in":TokenKind.IN ,
+        "range": TokenKind.RANGE,
         "export":TokenKind.EXPORT,
         "typeof":TokenKind.TYPEOF
     }
