@@ -25,24 +25,24 @@ class Lexer:
         self.source = source
         self.Tokens = []
         self.patterns = [
-            RegexPattern(re.compile(r"\s+"), skipHandler),
-            # r"\s+" Matches one or more white spaces characters, i.e, \n,\tab, " ", etc.
-            # r" is the sintax for raw string, and it's purpose is to treat backslashes (`\`) as literal characters
+            RegexPattern(re.compile(r"\s+"), skipHandler),                               # r"\s+" Matches one or more white spaces characters, i.e, \n,\tab, " ", etc.
+                                                                                         # r" is the sintax for raw string, and it's purpose is to treat backslashes (`\`) as
+                                                                                         # literal characters
 
-            RegexPattern(re.compile(r"//.*"), commentHandler),
-            # r"//.*" For comment lines like // Hello or //////// hello
 
-            RegexPattern(re.compile(r'"[^"]*"'), stringHandler),
-            # Matches a string enclosed within double quotes: "JIJI jajaja"
-            RegexPattern(re.compile(r"[0-9]+(\.[0-9]+)?"), numberHandler),
-            # [0-9]+ Matches a single or more digit numbers from zero to nine.
-            # (\.[0-9]+)?") Is a group that matches the decimal part of the number.
-            # No distinction between int or float
-            # No support of numbers like 1. , .5, .021, etc
+            RegexPattern(re.compile(r"//.*"), commentHandler),                               # r"//.*" For comment lines like // Hello or //////// hello
 
-            RegexPattern(re.compile(r"[a-zA-Z_][a-zA-Z0-9_]*"), symbolHandler),
-            # [a-zA-Z_] Matches the first character of the identifier, (it allows as first character
-            #  a capital, minus, or underscore) . [a-zA-Z0-9_]* Matches the rest of the string
+
+            RegexPattern(re.compile(r'"[^"]*"'), stringHandler),                             # Matches a string enclosed within double quotes: "JIJI jajaja"
+
+            RegexPattern(re.compile(r"[0-9]+(\.[0-9]+)?"), numberHandler),                   # [0-9]+ Matches a single or more digit numbers from zero to nine.
+                                                                                             # (\.[0-9]+)?") Is a group that matches the decimal part of the number.
+                                                                                             # No distinction between int or float
+                                                                                             # No support of numbers like 1. , .5, .021, etc
+
+
+            RegexPattern(re.compile(r"[a-zA-Z_][a-zA-Z0-9_]*"), symbolHandler),              # [a-zA-Z_] Matches the first character of the identifier, (it allows as first character
+                                                                                             #  a capital, minus, or underscore) . [a-zA-Z0-9_]* Matches the rest of the string
 
             RegexPattern(re.compile(r"\["), defaultHandler(Tokens.TokenKind.OPEN_BRAC, "[")),
             RegexPattern(re.compile(r"\]"), defaultHandler(Tokens.TokenKind.CLOSED_BRAC, "]")),
