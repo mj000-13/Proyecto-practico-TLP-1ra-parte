@@ -68,6 +68,8 @@ class TokenKind(Enum): # Enumerates the types of tokens, beginning with IOF = 0,
     TYPEOF = auto()
     RETURN = auto()
 
+#A global dictionary for reserved words
+
 reserved_lu ={
         "def": TokenKind.DEF,
         "return": TokenKind.RETURN,
