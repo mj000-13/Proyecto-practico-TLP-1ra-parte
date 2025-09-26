@@ -13,6 +13,6 @@ with open(file_path, "r", encoding="utf-8") as file:
 tokens = tokenize(source_code)
 ast_tree = parser.parse(tokens)
 
-# Guardar el AST en un archivo
+
 with open("ast_output.brik", "w", encoding="utf-8") as f:
     print_ast(ast_tree, f)
