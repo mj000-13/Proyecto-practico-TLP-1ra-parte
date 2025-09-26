@@ -1,4 +1,4 @@
-import Tokens
+from Tetris.Lexer import Tokens
 import re
 
 """CLASSES"""
@@ -60,7 +60,6 @@ class Lexer:
             RegexPattern(re.compile(r">"), defaultHandler(Tokens.TokenKind.GREATER, ">")),
             RegexPattern(re.compile(r"\|\|"), defaultHandler(Tokens.TokenKind.OR, "||")),
             RegexPattern(re.compile(r"&&"), defaultHandler(Tokens.TokenKind.AND, "&&")),
-            RegexPattern(re.compile(r"\.\."), defaultHandler(Tokens.TokenKind.DOT, "..")),
             RegexPattern(re.compile(r"\."), defaultHandler(Tokens.TokenKind.DOT, ".")),
             RegexPattern(re.compile(r";"), defaultHandler(Tokens.TokenKind.SEMICOMMA, ";")),
             RegexPattern(re.compile(r":"), defaultHandler(Tokens.TokenKind.COLON, ":")),

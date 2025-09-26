@@ -88,6 +88,8 @@ reserved_lu ={
         "export":TokenKind.EXPORT,
         "typeof":TokenKind.TYPEOF
     }
+#Global constant EOF
+IOF = TokenKind.IOF
 
 
 
@@ -96,6 +98,7 @@ class Token:
     def __init__(self, tokenKind, value   ): #Define token as a type of token and a string value
         self.tokenKind = tokenKind
         self.value = value
+        self.lexeme= value
 
 
 """----------------------------------------------------------------------------"""

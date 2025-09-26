@@ -1,0 +1,123 @@
+{
+  comida_normal = {
+    color = "rojo"
+    crecimiento = 1
+    id = "comida"
+    puntos = 10
+    tiempo_vida_segundos = 10
+  }
+  controles = {
+    mover_abajo = "s"
+    mover_arriba = "w"
+    mover_derecha = "d"
+    mover_izquierda = "a"
+    pausar = "p"
+    reiniciar = "r"
+  }
+  dimensiones_tablero = [24, 24]
+  items_disponibles = [
+    {
+      color = "rojo"
+      crecimiento = 1
+      id = "comida"
+      puntos = 10
+      tiempo_vida_segundos = 10
+    },
+    {
+      color = "celeste"
+      duracion_segundos = 8
+      factor_velocidad = 0.5
+      probabilidad = 0.08
+      tipo = "slow"
+    },
+    {
+      color = "morado"
+      duracion_segundos = 8
+      efecto_colisiones = {
+        cola = "atravesar"
+        paredes = "atravesar"
+      }
+      probabilidad = 0.05
+      tipo = "ghost"
+    },
+    {
+      color = "dorado"
+      crecimiento = 0
+      preferencia_spawn = {
+        cerca_de_pared = "si"
+        dificultad = "alta"
+        evitar_centro = "si"
+      }
+      probabilidad = 0.07
+      puntos = 50
+      tiempo_vida_segundos = 7
+      tipo = "score"
+    }
+  ]
+  moneda_oro = {
+    color = "dorado"
+    crecimiento = 0
+    preferencia_spawn = {
+      cerca_de_pared = "si"
+      dificultad = "alta"
+      evitar_centro = "si"
+    }
+    probabilidad = 0.07
+    puntos = 50
+    tiempo_vida_segundos = 7
+    tipo = "score"
+  }
+  mosca_congeladora = {
+    color = "celeste"
+    duracion_segundos = 8
+    factor_velocidad = 0.5
+    probabilidad = 0.08
+    tipo = "slow"
+  }
+  mosca_fantasma = {
+    color = "morado"
+    duracion_segundos = 8
+    efecto_colisiones = {
+      cola = "atravesar"
+      paredes = "atravesar"
+    }
+    probabilidad = 0.05
+    tipo = "ghost"
+  }
+  nombre_juego = "Snake Clasico con PowerUps"
+  regla_aparicion_comida = {
+    despawn_comida_segundos = 10
+  }
+  regla_colisiones = {
+    atravesar_bordes = "no"
+    choque_con_cola = "fin_juego"
+    choque_con_pared = "fin_juego"
+  }
+  regla_fin_juego = {
+    condicion = "colision"
+  }
+  regla_obstaculos = {
+    activos = "si"
+    cantidad = 24
+    evitar_spawn = "si"
+    zona_segura_radio = 2
+  }
+  regla_puntuacion = {
+    accion = "sumar_puntos"
+    evento = "comida_normal"
+    puntuacion_base = 10
+  }
+  regla_velocidad = {
+    aumento_por_puntos = 40
+    incremento = 0.5
+    max_velocidad = 18
+  }
+  serpiente_basica = {
+    color = "verde"
+    direccion_inicial = [1, 0]
+    longitud_inicial = 3
+    spawn_inicial = [12, 12]
+  }
+  velocidad_inicial = 6
+  version = "1.0"
+}
