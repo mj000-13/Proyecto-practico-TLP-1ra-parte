@@ -1,3 +1,58 @@
-2+1*5;
-32*21 +11 - 32;
-2124234+23465245-21*23/7;
+
+class pantalla{
+    let pixeles = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
+
+}
+
+class controles {
+
+    def abajo(input){ return movimiento_abajo }
+    def izquierda(input){ return movimiento_izq }
+    def derecha(input){ return movimiento_derecha }
+
+    }
+
+class cuadrado{}
+
+class ele{}
+
+class T{}
+
+class I{}
+
+class bomba{}
+
+class reglas{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

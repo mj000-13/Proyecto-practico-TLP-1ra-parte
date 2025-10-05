@@ -1,0 +1,14 @@
+BlockStmt
+  body:
+    ClassStmt
+      name: pantalla
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
+    ClassStmt
+      name: reglas
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)

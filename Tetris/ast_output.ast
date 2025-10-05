@@ -1,0 +1,219 @@
+BlockStmt
+  body:
+    ClassStmt
+      name: pantalla
+      attributes:
+        VarDeclStmt
+          varname: pixeles
+          isconstant: False
+          assignedvalue:
+            ArrayExpr
+              elements:
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                ArrayExpr
+                  elements:
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+                    NumberExpr(value:0.0)
+      methods:
+        (no methods)
+    ClassStmt
+      name: controles
+      attributes:
+        (no attributes)
+      methods:
+        FunctionStmt
+          name: abajo
+          params: ['input']
+          body:
+            ReturnStmt
+              value:
+                SymbolExpr(value:movimiento_abajo)
+        FunctionStmt
+          name: izquierda
+          params: ['input']
+          body:
+            ReturnStmt
+              value:
+                SymbolExpr(value:movimiento_izq)
+        FunctionStmt
+          name: derecha
+          params: ['input']
+          body:
+            ReturnStmt
+              value:
+                SymbolExpr(value:movimiento_derecha)
+    ClassStmt
+      name: cuadrado
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
+    ClassStmt
+      name: ele
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
+    ClassStmt
+      name: T
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
+    ClassStmt
+      name: I
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
+    ClassStmt
+      name: bomba
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
+    ClassStmt
+      name: reglas
+      attributes:
+        (no attributes)
+      methods:
+        (no methods)
