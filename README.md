@@ -37,9 +37,9 @@ return algo
 
 para definir clases:
 
-//
-    Class miClase{
+Class miClase{
 
+// atributos
 let at1 = 0
 
 let at2 = "false"
@@ -53,5 +53,5 @@ return algo
 }
 }
 
-Pendientes: if stmt, loops stmts.
+Pendientes: if stmt, loops stmts, print stmt
 
