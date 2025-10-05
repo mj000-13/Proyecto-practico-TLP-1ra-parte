@@ -1,6 +1,12 @@
 # Proyecto-practico-TLP-1ra-parte
 
-Proyecto practico TLP 1ra parte
+Hecho por:
+
+Maria José Gil Arboleda
+
+David Delgado Ortiz
+
+
 
 Para definir variables:
 let, const (constante)
