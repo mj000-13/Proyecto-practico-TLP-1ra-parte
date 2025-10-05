@@ -1,6 +1,44 @@
-class pantalla{
+class PantallaSnake{
+
+    let pixeles = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+                   [0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
+
+    def iniciarPantalla(){
+        return "print (pantalla) ";  // Falta hacer stmt de print en parser.stmt
+    }
+    def aparecerComida(){}
+    def borrarComida(){}
+    def getBordes(){}
 
 }
 
-class reglas{
+class Serpiente{
+    let velocidad_inicial = 6;
+
+}
+
+class Reglas{
+
+    let puntuacion = 0;
+    let gameOver = False;
+    let vidas = 2;
+
+    // Falta implementar if stmt
+
+    //def sumarPuntuacion(){
+        //if (Serpiente.come){
+            //puntuacion += 10
+        //}
+    //}
+
+    def perderVida(){}
+
+
 }

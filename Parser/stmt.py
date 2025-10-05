@@ -55,7 +55,7 @@ def parse_function_stmt(p):
         if p.currentTokenKind() == TokenKind.RETURN:
             body.append(parse_return_stmt(p))
         else:
-            body.append(parse_stmt(p))  # cualquier otro statement que tengas
+            body.append(parse_stmt(p))
     p.expect(TokenKind.CLOSED_CURL)
 
     return FunctionStatement(name, params, body)
